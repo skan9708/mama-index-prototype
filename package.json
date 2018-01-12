@@ -1,0 +1,36 @@
+{
+  "name": "mama_index_prototype",
+  "version": "1.0.0",
+  "description": "mama 회사 소개 페이지의 프로토타입이다.",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^7.2.4",
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "*",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-imagemin": "*",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-csscomb": "*",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-includes" : "latest",
+    "grunt-include-replace": "^5.0.0",
+    "grunt-newer": "*",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "*",
+    "jit-grunt": "^0.10.0",
+    "jshint-stylish": "*",
+    "time-grunt": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jjangga0214",
+  "license": "ISC"
+}

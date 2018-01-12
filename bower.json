@@ -1,0 +1,20 @@
+{
+  "name": "mama-index-prototype",
+  "version": "0.1.0",
+  "authors": [
+    "jjangga0214 <jjangga@kookmin.ac.kr>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    //"jquery": "latest3",
+  },
+  "devDependencies": {
+  }
+}
