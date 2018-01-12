@@ -1,4 +1,4 @@
-MAMA Frontend Index Project (MFIP)
+MAMA Index Project (MIP)
 ==
 
 기술 구성
@@ -7,23 +7,14 @@ MAMA Frontend Index Project (MFIP)
 * 프레임워크 : bootstrap 4 (beta)
 * css preprocessor : sass
 
-js plugin
+Javascript plugin
 --
-명시적으로 사용한 플러그인들(암시적인 의존성은 아래 서술하지 않음.)의 목록은 다음과 같다.
 * Typed.js : 페이지의 header에 타이핑 애니메이션을 주기위해 사용
 
-grunt
+Grunt Plugin Installation
 --
 ```bash
-npm i -D grunt grunt-sass autoprefixer grunt-postcss grunt-includes jit-grunt grunt-autoprefixer grunt-concurrent grunt-contrib-clean grunt-contrib-concat grunt-contrib-connect grunt-contrib-copy grunt-contrib-csslint grunt-contrib-cssmin grunt-contrib-imagemin grunt-contrib-jshint grunt-contrib-less  grunt-contrib-uglify grunt-contrib-watch grunt-include-replace grunt-newer grunt-notify grunt-prettify grunt-usemin grunt-wiredep jshint-stylish load-grunt-tasks time-grunt  --save-dev
+sudo npm install grunt autoprefixer grunt-concurrent grunt-contrib-clean grunt-contrib-concat grunt-contrib-connect grunt-contrib-copy grunt-contrib-cssmin grunt-contrib-imagemin grunt-contrib-jshint grunt-contrib-uglify grunt-contrib-watch grunt-csscomb grunt-htmlhint grunt-includes grunt-include-replace grunt-newer grunt-postcss grunt-sass jit-grunt jshint-stylish time-grunt --save-dev
 ```
-### task 단위
-#### html
 
-#### style
 
-#### js
-
-#### build
-
-#### default
