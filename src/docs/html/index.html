@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mama Index Prototype</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
@@ -28,7 +29,7 @@
 </head>
 
 <body>
-<script src="js/site.min.js"></script>
+
 <div>
     <div id="header_section" class="header-dark">
         <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
@@ -57,10 +58,21 @@
                 </div>
             </div>
         </nav>
+
         <div class="container hero">
+
             <div class="row">
+                <h1 class="text-center page_title" id="page_title"></h1>
                 <div class="col-md-8 offset-md-2">
-                    <h1 class="text-center" id="page_title" style="margin:155px 0 0;">MAMA</h1>
+
+                    <div id="typed_strings" style="display: none;">
+                        <span><strong>웹 개발</strong>을 찾고 계신가요?</span>
+                        <span><strong>안드로이드 / IOS</strong> 개발이 필요하세요?</span>
+                        <span><strong>IOT</strong> 프로젝트를 기획중이신가요?</span>
+                        <span><strong>Arduino / RPi</strong> 전문가를 원하세요?</span>
+                        <span>그렇다면,</span>
+                        <span><strong>MAMA</strong></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -318,9 +330,14 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-<script src="../../js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<!--<script src="../../js/bootstrap.min.js"></script>-->
 <script src="../../js/bs-animation.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+<script src="js/site.min.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/typing_title.js"></script>
 </body>
 
 </html>
